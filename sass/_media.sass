@@ -1,0 +1,972 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .navbar
+    &-menu
+      width: 400px
+      &__link
+        font-weight: 700
+        font-size: 12px
+        line-height: 16px
+        &:hover
+          color: $secondary
+      &--light
+        &:hover
+          color: $secondary
+  .tabs
+    &-item
+      width: max-content
+      &__block
+        &:hover
+          background-color: $secondary
+    &-content
+      width: 100%
+      &__block
+        &-link
+          &:hover
+            background-color: $blue
+  .fastpages
+    &-block
+      &__divider
+        margin-right: 10px
+        margin-left: 10px
+  .articles
+    &-wrapper
+      grid-template-columns: 1fr
+    &-main
+      &__block
+        &-thin
+          &_image
+            width: 100%
+        &-thin2
+          &__image
+            width: 100%
+    &-aside
+      grid-template-rows: 170px min-content
+      grid-template-columns: 1fr 1fr
+      height: 100%
+      &__tags
+        order: 3
+        grid-column: span 2
+        height: 100%
+        &-divider
+          width: 100%
+      &__download
+        &-title
+          margin-top: 10px
+        &-info
+          margin-bottom: 45px
+        &-divider
+          width: 100%
+      &__social
+        &-link
+          &:hover
+            opacity: 1
+  .activities
+    &-card
+      max-width: 220px
+  .hotnews
+    &__link
+      &:hover
+        background-color: $blue
+
+  .bottom
+    &-wrapper
+      grid-template-columns: 1fr
+      &__right
+        grid-template-rows: 1fr
+        &-work
+          width: 100%
+  .bottomPages
+    &-wrapper
+      grid-template-columns: 100%
+    &-latest
+      &_container
+        display: flex
+        flex-wrap: wrap
+      &_articles
+        width: 50%
+        &-block
+          display: flex
+          align-items: center
+      &_divider2
+        display: block
+        width: 100%
+  .bottom
+    &-wrapper
+      &__left
+        &-block
+          &_link
+            &:hover
+              background-color: $blue
+      &__right
+        &-work
+          &__block
+            &-link
+              &:hover
+                background-color: $blue
+  .newsletter
+    &-form
+      &_button
+        &:hover
+          background-color: $blue
+  .footer
+    &-links
+      &__block
+        &-divider
+          &_red
+            width: 100%
+          &_violet
+            width: 100%
+          &_blue
+            width: 100%
+          &_orange
+            width: 100%
+          &_green
+            width: 100%
+          &_greyblue
+            width: 100%
+    &-contacts
+      &__links
+        &-logo
+          &:hover
+            opacity: 1
+  .swiper
+    &-button
+      &-prev
+        &:hover
+          opacity: 1
+      &-next
+        &:hover
+          opacity: 1
+  .announce
+    height: 100%
+    &-wrapper
+      padding-left: 62px
+      &__author
+        width: auto
+        height: auto
+        bottom: -180px
+        right: 0px
+        &-block
+          padding: 20px 15px 0px
+          &_avatar
+            width: 70px
+            height: 70px
+          &_name
+            font-size: 16px
+            line-height: 20px
+          &_prof
+            font-size: 12px
+            line-height: 18px
+          &_counter
+            font-size: 12px
+            line-height: 18px
+        &_link
+          font-size: 12px
+          line-height: 18px
+    &__heading
+      &-navigation
+        &_link
+          &:hover
+            color: $secondary
+    &__headline
+      font-size: 30px
+      line-height: 40px
+    &__text
+      font-size: 14px
+      line-height: 20px
+    &__bottom
+      max-width: 150px
+      flex-wrap: wrap
+  .commentaries
+    &-load
+      width: 100%
+  .page
+    &-bottom
+      &_theme
+        margin-bottom: 20px
+        position: relative
+        top: 0
+        left: 0
+        width: auto
+        &-wrap
+          display: flex
+        &-image
+          min-width: 263px
+        &-heading
+          margin-top: 0
+        &-wrapper
+          &-mr
+            padding-left: 10px
+@media (max-width: 992px)
+  .container
+    max-width: 800px
+  .search
+    width: 200px
+    margin-left: 10px
+    &__input
+      padding-left: 10px
+      padding-right: 20px
+    &__button
+      right: 10px
+  .fastpages
+    &-wrapper
+      flex-wrap: wrap
+      justify-content: space-between
+    &-block
+      width: 250px
+      &__divider
+        &--center
+          display: none
+  .articles
+    &-main
+      grid-template-rows: 1fr
+      height: 100%
+      &__block
+        &-thin
+          &__bottom
+            top: 100px
+            &_coment
+              flex-wrap: wrap
+        &-thin2
+          height: 100%
+          &__image
+            height: 70%
+        &-wide
+          &__block
+            &-left
+              width: 50%
+            &-right
+              width: 45%
+          &__coment
+            padding-right: 10px
+            margin-top: 5px
+    &-aside
+      &__download
+        &-info
+          margin-bottom: 20px
+  .page
+    &-top
+      &_text
+        &--first
+          width: 520px
+  .activities
+    &-card
+      max-width: 190px
+  .commentaries
+    &-reply
+      &_block
+        &-form
+          &_textarea
+            width: 100%
+@media (max-width: 768px)
+
+  .container
+    max-width: 676px
+    width: 92%
+  body
+    padding-top: 70px
+  .navbar
+    &--mobile
+      &_fixed
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        z-index: 99
+    &-menu
+      display: none
+      position: fixed
+      top: 70px
+      left: 0
+      right: 0
+      bottom: 0
+      width: 100%
+      background-color: $primary
+      &--visible
+        overflow: scroll
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        justify-content: space-around
+      &__item
+      &__link
+        font-weight: 900
+        font-size: 24px
+        line-height: 30px
+        &--light
+          font-weight: 900
+          font-size: 24px
+          line-height: 30px
+          color: $secondary
+    &-button
+      display: flex
+      align-items: center
+      flex-direction: column
+      justify-content: space-between
+      width: 16px
+      height: 11px
+      padding: 0
+      border: none
+      cursor: pointer
+      background-color: $primary
+      &__line
+        width: 16px
+        height: 1px
+        background-color: $secondary
+        &--light
+          width: 16px
+          height: 1px
+          background-color: $primary
+      &--light
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: space-between
+        width: 16px
+        height: 11px
+        padding: 0
+        border: none
+        cursor: pointer
+        background-color: $secondary
+  .search
+    margin-left: 10px
+    &_mobile
+      &--visible
+        display: flex
+        position: relative
+        overflow: hidden
+        background: #656B70
+        border-radius: 10px
+        width: 263px
+        height: 39px
+      &--hidden
+        display: none
+    &-light
+      width: 263px
+      margin-left: 10px
+      &_mobile
+        &--visible
+          display: flex
+          position: relative
+          overflow: hidden
+          background: #656B70
+          border-radius: 10px
+          width: 263px
+          height: 39px
+        &--hidden
+          display: none
+    &__input
+      padding-left: 25px
+      padding-right: 65px
+      &--light
+        padding-left: 25px
+        padding-right: 65px
+    &__button
+      right: 26px
+      &--light
+        right: 26px
+  .announce
+    height: 100%
+    &-wrapper
+      padding-top: 23px
+      padding-bottom: 50px
+      padding-left: 42px
+      &__author
+        bottom: -68px
+        right: 0px
+        &-block
+          display: flex
+          flex-direction: row
+          flex-wrap: wrap
+          justify-content: center
+          width: 250px
+          padding: 20px 15px 0px
+          &_avatar
+            width: 60px
+            height: 60px
+            margin-right: 10px
+          &_name
+            font-size: 16px
+            line-height: 20px
+          &_prof
+            font-size: 12px
+            line-height: 18px
+          &_counter
+            display: block
+            font-size: 12px
+            line-height: 18px
+        &_link
+          font-size: 12px
+          line-height: 18px
+    &__headline
+      font-size: 30px
+      line-height: 40px
+    &__text
+      font-size: 14px
+      line-height: 20px
+    &__bottom
+      max-width: 150px
+      flex-wrap: wrap
+
+  .tabs
+    &-content
+      &__block
+        &-headline
+          width: 100%
+          font-size: 30px
+          line-height: 40px
+  .fastpages
+    &-block
+      width: 234px
+  .articles
+    &-main
+      grid-template-columns: 1fr 1fr
+      &__block
+        &-wide
+          grid-column: span 2
+          &__block
+            &-right
+              width: max-content
+        &-thin
+          &__bottom
+            top: 160px
+            &_coment
+              justify-content: left
+        &-thin2
+          height: 370px
+          grid-row: span 1
+    &-aside
+      &__social
+        &-link
+          &:hover
+            opacity: 1
+  .bottomPages
+    &-articles
+      &__block
+        flex-wrap: wrap
+        &-image
+          width: 100%
+          margin-right: 0
+          margin-bottom: 10px
+  .footer
+    &-contacts
+      &__social
+        &_link
+          &:hover
+            opacity: 1
+  .page
+    &-top
+      padding-left: 62px
+      padding-top: 64px
+      &_text
+        &--first
+          width: auto
+    &-bottom
+      &_theme
+        &-image
+          min-width: 200px
+        &-heading
+          margin-top: 10px
+          margin-bottom: 10px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &-card
+      min-width: 49%
+      &_image
+        height: 200px
+  .commentaries
+    &-wrapper
+      padding-left: 42px
+    &-reply
+      &_block
+        &-form
+          &_textarea
+            width: 100%
+  .swiper
+    &-button
+      &-prev
+        width: 40px
+        height: 40px
+        left: 25px
+      &-next
+        width: 40px
+        height: 40px
+        right: 25px
+@media (max-width: 586px)
+  .logo
+    width: 163px
+  .navbar
+    &-menu
+      &__link
+        font-weight: 700
+        font-size: 16px
+        line-height: 20px
+        &--light
+          font-weight: 700
+          font-size: 16px
+          line-height: 20px
+  .announce
+    height: 100%
+    &-wrapper
+      padding-top: 23px
+      padding-bottom: 50px
+      padding-left: 42px
+      &__author
+        bottom: -90px
+        right: 0px
+        &-block
+          display: flex
+          flex-direction: row
+          flex-wrap: wrap
+          justify-content: center
+          width: 250px
+          padding: 20px 15px 0px
+          &_avatar
+            width: 60px
+            height: 60px
+            margin-right: 10px
+          &_name
+            font-size: 16px
+            line-height: 20px
+          &_prof
+            font-size: 12px
+            line-height: 18px
+          &_counter
+            display: block
+            font-size: 12px
+            line-height: 18px
+        &_link
+          font-size: 12px
+          line-height: 18px
+
+    &__heading
+      margin-bottom: 40px
+      flex-direction: column
+      &-navigation
+        width: auto
+        height: 100%
+        justify-content: flex-start
+        margin-top: 10PX
+        margin-right: 0
+        &_prev
+          margin-right: 10px
+    &__headline
+      font-size: 24px
+      line-height: 30px
+    &__text
+      font-size: 14px
+      line-height: 16px
+    &__bottom
+      max-width: 150px
+      flex-wrap: wrap
+  .tabs
+    &-mobileContainer
+      display: flex
+    &-container
+      display: none
+    &-mobileContent
+      &__block
+        &-headline
+          width: 100%
+          font-size: 30px
+          line-height: 40px
+        &_title
+          padding: 10px
+        &-person
+          margin-top: 25px
+          margin-bottom: 120px
+    &-mobileItem
+      &__block
+        width: 50%
+        padding: 10px
+  .fastpages
+    &-block
+      width: 100%
+      justify-content: space-between
+      &__divider
+        &--aside
+          display: none
+        &--horizontal
+          display: block
+          width: 100%
+          margin-top: 5px
+          margin-bottom: 10px
+          height: 1px
+          background-color: $light-text-color
+      &__link
+        flex-basis: 100%
+      &__text
+
+  .articles
+    &-main
+      grid-template-columns: 1fr
+      &__block
+        &-wide
+          height: 100%
+          grid-column: span 1
+          &__block
+            padding: 20px
+            &-right
+              display: none
+              height: 100%
+            &-left
+              width: 100%
+              height: 100%
+          &__coment
+            padding: 25px
+            &_name
+              font-size: 10px
+              line-height: 12px
+            &_text
+              font-size: 10px
+              line-height: 12px
+              margin-right: 5px
+            &_ico
+              min-width: 13px
+        &-thin
+          &__bottom
+            top: 50%
+    &-aside
+      grid-template-columns: 1fr
+      &__tags
+        grid-column: span 1
+        order: 2
+  .bottom
+    &-wrapper
+      &__right
+        &-work
+          min-height: 400px
+          &__block
+            width: 200px
+          &_image
+            height: 100%
+            object-fit: cover
+      &__left
+        &-block
+          &_headline
+            font-size: 30px
+            line-height: 40px
+  .newsletter
+    &-form
+      &_button
+        margin-top: 10px
+  .bottomPages
+    &-articles
+      &__block
+        &-image
+          min-width: 100%
+        &__block
+          &-data
+    &-articles
+      &__block
+        &-data
+          height: 100%
+
+  .footer
+    &-contacts
+      flex-direction: column
+      align-items: flex-start
+      &__links
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 10px
+        &-logo
+          margin-bottom: 10px
+        &-item
+          margin-bottom: 5px
+    &-links
+      flex-wrap: wrap
+      &__block
+        width: 50%
+    &-bottom
+      &__info
+        max-width: 60%
+  .page
+    font-size: 14px
+    line-height: 20px
+    &-top
+      padding-top: 84px
+      padding-left: 22px
+      &_text
+        &--first
+          width: 100%
+    &-bottom
+      padding-left: 22px
+      &_theme
+        &-wrap
+          flex-direction: column
+        &-image
+          min-width: 100%
+    &-wrapper
+      height: 100%
+      border-radius: 10px
+      overflow: hidden
+      border: 1px solid $divider
+      &_bottom
+        padding-left: 10px
+        &-text
+          font-size: 12px
+          line-height: 14px
+        &-author
+          &_divider
+            width: 1px
+            min-height: 70px
+            margin-right: 15px
+            background-color: $divider
+            border: none
+            margin-top: 0
+            margin-bottom: 0
+          &_avatar
+            width: 25px
+            height: 25px
+            margin-right: 10px
+            object-fit: cover
+            border-radius: 50px
+          &_info
+            display: flex
+            flex-direction: column
+            &-name
+              font-size: 12px
+              line-height: 15px
+            &-prof
+              font-size: 10px
+              line-height: 15px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &-card
+      min-width: 49%
+      &_image
+        height: 200px
+  .commentaries
+    &-wrapper
+      padding-left: 22px
+    &-heading
+      &_headline
+        font-size: 24px
+        line-height: 30px
+        &-counter
+          font-size: 24px
+          line-height: 30px
+    &-sheet
+      &_block
+        &-avatar
+          width: 45px
+          height: 45px
+        &-message
+          &_text
+            font-size: 14px
+            line-height: 20px
+    &-reply
+      &_block
+        &-form
+          &_textarea
+            width: 100%
+@media (max-width: 435px)
+  .announce
+    &-wrapper
+      &__author
+        bottom: -130px
+  .page
+    &-top
+      padding-top: 124px
+@media (max-width: 375px)
+
+  .announce
+    &-wrapper
+      &__author
+        bottom: -150px
+        right: 0px
+    &__text
+      margin-top: 20px
+      margin-bottom: 23px
+    &__heading
+      &-navigation
+        flex-direction: column
+        &_prev
+          margin-left: 0
+  .tabs
+    &-mobileItem
+      &__block
+        &-heading
+          font-size: 10px
+          line-height: 12px
+  .articles
+    &-main
+      grid-template-columns: 1fr
+      &__block
+        &-wide
+          height: 100%
+          grid-column: span 1
+          &__block
+            padding: 20px
+            &-right
+              display: none
+              height: 100%
+            &-left
+              width: 100%
+              height: 100%
+          &__coment
+            padding: 25px
+            &_name
+              font-size: 10px
+              line-height: 12px
+            &_text
+              font-size: 10px
+              line-height: 12px
+              margin-right: 5px
+            &_ico
+              min-width: 13px
+        &-thin
+          &__bottom
+            top: 50%
+    &-aside
+      grid-template-columns: 1fr
+      &__tags
+        grid-column: span 1
+        order: 2
+  .hotnews
+    &-title
+      &_link
+        font-size: 30px
+        line-height: 40px
+  .bottomPages
+    &-latest
+      &_container
+        padding: 0 10px
+    &-articles
+      &__block
+        &-data
+          height: 100%
+  .bottom
+    &-wrapper
+      &__right
+        grid-template-columns: 1fr
+        &-work
+          grid-column: span 1
+          grid-row: span 1
+          padding: 25px 25px
+          &__block
+            width: 150px
+      &__left
+        &-block
+          width: 100%
+          &_prof
+            margin-bottom: 60px
+          &_headline
+            font-size: 24px
+            line-height: 30px
+          &_link
+            margin-top: 60px
+  .newsletter
+    &-title
+      font-size: 30px
+      line-height: 40px
+    &-form
+      &_input
+        width: 100%
+      &_button
+        &:hover
+          opacity: 1
+  .page
+    &-top
+      padding-top: 160px
+      padding-left: 0px
+      &_text
+        &--first
+          width: 100%
+    &-bottom
+      padding-left: 0px
+      padding-bottom: 30px
+      &_quote
+        margin-top: 40px
+        margin-bottom: 25px
+        font-size: 20px
+        line-height: 22px
+        &-icon
+          left: -5px
+      &_tags
+        margin-bottom: 20px
+        &-item
+          margin-bottom: 10px
+      &_share
+        margin-top: 20px
+      &_links
+        flex-wrap: wrap
+        &-link
+          margin-bottom: 10px
+          &:hover
+            opacity: 1
+  .activities
+    padding-top: 30px
+    padding-bottom: 30px
+    &-card
+      min-width: 100%
+  .commentaries
+    padding-top: 30px
+    padding-bottom: 20px
+    &-wrapper
+      padding-left: 0px
+    &-heading
+      flex-wrap: wrap
+    &-sheet
+      &_block
+        flex-direction: column
+        &--answer
+          padding-left: 25px
+        &-message
+          margin-left: 0px
+    &-load
+      margin-bottom: 20px
+    &-reply
+      padding: 10px
+      &_block
+        flex-direction: column
+        &-user
+          margin-bottom: 20px
+        &-form
+          &_textarea
+            position: relative
+            background: #fff
+            border: 1px solid $divider
+            &:after
+              content: ""
+              border: solid transparent
+              position: absolute
+              left: 30px
+              top: -20px
+              bottom: 100%
+            &:before
+              content: ""
+              border: solid transparent
+              position: absolute
+              left: 30px
+              top: -20px
+              bottom: 100%
+            &:after
+              border-bottom-color: #fff
+              border-width: 8px
+              margin-left: 0
+            &:before
+              border-bottom-color: $divider
+              border-width: 9px
+              margin-left: -1px
+          &_button
+            &:hover
+              opacity: 1
+  .swiper
+    &-button
+      &-prev
+        width: 30px
+        height: 30px
+        left: 15px
+        top: 520px
+      &-next
+        width: 30px
+        height: 30px
+        right: 15px
+        top: 520px
